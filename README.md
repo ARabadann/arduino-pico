@@ -139,6 +139,7 @@ Read the [Contributing Guide](https://github.com/earlephilhower/arduino-pico/blo
 * Seeed XIAO RP2040
 * Seeed XIAO RP2040 Plus
 * Seeed XIAO RP2350
+* UNIT Electronics Pulsar RP2350A Sense
 * uPesy RP2040 DevKit
 * VCC-GND YD RP2040
 * Vicharak Shrike-Lite

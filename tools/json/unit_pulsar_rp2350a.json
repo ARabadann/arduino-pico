@@ -1,0 +1,57 @@
+{
+    "build": {
+        "arduino": {
+            "earlephilhower": {
+                "boot2_source": "none.S",
+                "usb_vid": "0x2E8A",
+                "usb_pid": "0x1189"
+            }
+        },
+        "core": "earlephilhower",
+        "cpu": "cortex-m33",
+        "extra_flags": "-DARDUINO_UNIT_PULSAR_RP2350A -DARDUINO_ARCH_RP2040 -DUSBD_MAX_POWER_MA=500 ",
+        "f_cpu": "150000000L",
+        "hwids": [
+            [
+                "0x2E8A",
+                "0x00C0"
+            ],
+            [
+                "0x2E8A",
+                "0x1189"
+            ]
+        ],
+        "mcu": "rp2350",
+        "variant": "unit_pulsar_rp2350a"
+    },
+    "debug": {
+        "jlink_device": "RP2350_M33_0",
+        "openocd_target": "rp2350.cfg",
+        "svd_path": "rp2350.svd"
+    },
+    "frameworks": [
+        "arduino",
+        "picosdk"
+    ],
+    "name": "Pulsar RP2350A Sense",
+    "upload": {
+        "maximum_ram_size": 524288,
+        "maximum_size": 16777216,
+        "require_upload_port": true,
+        "native_usb": true,
+        "use_1200bps_touch": true,
+        "wait_for_upload_port": false,
+        "protocol": "picotool",
+        "protocols": [
+            "blackmagic",
+            "cmsis-dap",
+            "jlink",
+            "raspberrypi-swd",
+            "picotool",
+            "picoprobe"
+        ],
+        "psram_length": 8388608
+    },
+    "url": "https://uelectronics.com/producto/pulsar-rp2350a-sense-imu-microfono-unit-devlab/",
+    "vendor": "UNIT Electronics"
+}

@@ -753,6 +753,9 @@ MakeBoard("seeed_xiao_rp2040", "rp2040", "Seeed", "XIAO RP2040", "0x2e8a", "0x00
 MakeBoard("seeed_xiao_rp2040_plus", "rp2040", "Seeed", "XIAO RP2040 Plus", "0x2e8a", "0x000a", 250, "SEEED_XIAO_RP2040_PLUS", 2, 0, "boot2_w25q080_2_padded_checksum")
 MakeBoard("seeed_xiao_rp2350", "rp2350", "Seeed", "XIAO RP2350", "0x2886", "0x0058", 250, "SEEED_XIAO_RP2350", 2, 0, "none", None, "https://www.seeedstudio.com/Seeed-XIAO-RP2350-p-5944.html")
 
+# UNIT Electronics
+MakeBoard("unit_pulsar_rp2350a", "rp2350", "UNIT Electronics", "Pulsar RP2350A Sense", "0x2e8a", "0x1189", 500, "UNIT_PULSAR_RP2350A", 16, 8, "none", board_url="https://uelectronics.com/producto/pulsar-rp2350a-sense-imu-microfono-unit-devlab/")
+
 # Upesy
 MakeBoard("upesy_rp2040_devkit", "rp2040", "uPesy", "RP2040 DevKit", "0x2e8a", "0x1007", 250, "UPESY_RP2040_DEVKIT", 2, 0, "boot2_w25q080_2_padded_checksum")
 
